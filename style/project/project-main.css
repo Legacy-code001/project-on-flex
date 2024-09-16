@@ -1,0 +1,557 @@
+.projects-container{
+    /* height: 1000px; */
+    width: 100vw;
+    
+}
+
+
+.projects{
+    background-image: url(../../assets/images/projects/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* height: 600px; */
+    width: 100vw;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+
+
+}
+.main-top{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+}
+.project-middle{
+    width: 100%;
+    padding-bottom: 20px;
+    
+}
+.paragraph{
+    width: 60%;
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    box-shadow: 7px 7px 5px #68686857;
+    margin-bottom:50px;
+}
+.project-filter-button{
+    width: 60%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+    /* background: rgb(24, 22, 22); */  
+    margin-top: 10px;
+    padding-top: 10px;
+     
+}
+.project-filter{
+    width: 30%;
+    margin-left: 3px;
+    background: black;
+    height: 50px;
+    align-self: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.project-filter.active{
+    background: rgb(155, 129, 129);
+}
+.main-bottom{
+    width: 100vw;
+    /* height: 300px; */
+    /* background: black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 100px;
+
+}
+.main-bottom .row{
+    width: 70vw; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background: white; */
+    gap: 20px;
+    
+}
+.main-bottom .row .col{
+    width: 33%;
+    height: 300px;
+    border-radius: 10px;
+    /* padding-right: 10px;
+    padding-bottom: 10px; */
+    box-shadow: 5px 5px 5px 3px #00000035;
+    margin-top: 20px;
+    background: rgb(216,217,222);
+}
+.main-bottom .row .col .common{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    /* background-image: url(../../assets/images/ikoyi-park.jpg); */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+.main-bottom .row .col .common::before{
+    content: '';
+    width: 90%;
+    height: 0;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    background-image: linear-gradient(to right, #0218087a, #3fe30d57);
+    border-radius: 10px;
+    position: absolute;
+    
+}
+.main-bottom .row .col .common:hover::before{
+    height: 90%;
+    transition: 0.5s ease-in-out;
+}
+.main-bottom  .oneOfFirst{
+    background-image: url(../../assets/images/ikoyi-park.jpg);
+    
+}
+.main-bottom .row .twoOfFirst{
+    background: url(../../assets/images/national.jpg);
+}
+.main-bottom  .row .threeOfFirst{
+    background: url(../../assets/images/lekki.jpg);
+}
+.main-bottom .row .oneOfSecond{
+    background: url(../../assets/images/duplex-obiaro.jpg);
+}
+.main-bottom .row .twoOfSecond{
+    background: url(../../assets/images/akwa-ibon-bedroom.jpg);
+}
+.main-bottom .row .threeOfSecond{
+    background: url(../../assets/images/asaba-duplex.jpg);
+}
+.main-bottom .row .oneOfThird{
+    background: url(../../assets/images/sapele.jpg);
+}
+.main-bottom .row .common.twoOfThird{
+    background: url(../../assets/images/benin.jpg);
+}
+.main-bottom .row .common.threeOfThird{
+    background: url(../../assets/images/warri.jpg);
+}
+.main-bottom .row .common a{
+    display: block;
+    width: 90%;
+    border: 1px solid rgb(255,255,255);
+    border-radius: 10px;
+    background: rgba(39, 44, 45, 0.553);
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-right: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    font-weight: 400;
+    color: rgb(255,255,255);
+}
+
+
+
+@media (min-width:799px) and (max-width:899px){
+    .projects{
+        padding-top: 60px;
+    
+    
+    }
+    .main-top{
+
+        height: 200px;
+    }
+    .project-middle{
+
+        padding-bottom: 15px;
+        
+    }
+    .paragraph{
+        width: 60%;
+        margin-bottom:35px;
+        font-size: 15px;
+    }
+    .project-filter-button{
+        height: 30px; 
+        margin-top: 10px;
+        padding-top: 10px;
+         
+    }
+    .project-filter{
+        width: 30%;
+        margin-left: 2px;
+        height: 40px;
+        font-size: 15px;
+
+    }
+    .main-bottom{
+        width: 100vw; 
+        gap: 15px;
+        padding-bottom: 80px;
+    
+    }
+    .main-bottom .row{
+        width: 70vw; 
+        gap: 15px;
+        
+    }
+    .main-bottom .row .col{
+        height: 250px;
+        margin-top: 15px;
+    }
+    .main-bottom .row .col .common{
+        height: 250px;
+        border-radius: 10px;
+        
+        
+    }
+    
+    .main-bottom .row .common a{
+        display: block;
+        width: 90%;
+        border: 1px solid rgb(255,255,255);
+        border-radius: 10px;
+        background: rgba(39, 44, 45, 0.553);
+        padding: 10px;
+        text-transform: uppercase;
+        font-size: 13px;
+        margin-right: 10px;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+        font-weight: 400;
+    }
+    
+}
+@media (min-width:510px) and (max-width:798px){
+    
+    .projects-container{
+        /* height: 1000px; */
+        width: 100vw;
+        
+    }
+    
+    
+    .projects{
+        background-image: url(../../assets/images/projects/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        /* height: 600px; */
+        width: 100vw;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+    
+    
+    }
+    .main-top{
+        width: 100%;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+    }
+    .project-middle{
+        width: 100%;
+        padding-bottom: 20px;
+        
+    }
+    .paragraph{
+        width: 80%;
+        align-self: center;
+        background-color: rgb(255, 255, 255);
+        padding: 30px;
+        box-shadow: 7px 7px 5px #68686857;
+        margin-bottom:30px;
+    }
+    .project-filter-button{
+        width: 80%;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-self: center;
+        /* background: rgb(24, 22, 22); */  
+        margin-top: 10px;
+        padding-top: 10px;
+         
+    }
+    .project-filter{
+        width: 33%;
+        margin-left: 3px;
+        background: black;
+        height: 35px;
+        font-size: 13px;
+        align-self: center;
+        padding: 5px;
+        border-radius: 10px;
+        color: white;
+    }
+    .project-filter.active{
+        background: rgb(155, 129, 129);
+    }
+    .main-bottom{
+        width: 100vw;
+        /* height: 300px; */
+        /* background: black; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-bottom: 100px;
+    
+    }
+    /* .main-bottom .row.first{
+        margin-top: 5px;
+    } */
+    .main-bottom .row{
+        width: 80vw; 
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* background: white; */
+        gap: 18px;
+        
+    }
+    .main-bottom .row .col{
+        width: 33%;
+        height: 200px;
+        border-radius: 10px;
+        /* padding-right: 10px;
+        padding-bottom: 10px; */
+        box-shadow: 5px 5px 5px 3px #00000035;
+        margin-top:25px;
+        background: rgb(216,217,222);
+    }
+    .main-bottom .row .col .common{
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+        /* background-image: url(../../assets/images/ikoyi-park.jpg); */
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        
+        
+    }
+    .main-bottom .row .col .common::before{
+        content: '';
+        width: 90%;
+        height: 0;
+        display: flex;
+        flex-direction: row;
+        align-self: flex-start;
+        background-image: linear-gradient(to right, #0218087a, #3fe30d57);
+        border-radius: 10px;
+        position: absolute;
+        
+    }
+    .main-bottom .row .col .common:hover::before{
+        height: 90%;
+        transition: 0.5s ease-in-out;
+    }
+    .main-bottom  .oneOfFirst{
+        background-image: url(../../assets/images/ikoyi-park.jpg);
+        
+    }
+    .main-bottom .row .twoOfFirst{
+        background: url(../../assets/images/national.jpg);
+    }
+    .main-bottom  .row .threeOfFirst{
+        background: url(../../assets/images/lekki.jpg);
+    }
+    .main-bottom .row .oneOfSecond{
+        background: url(../../assets/images/duplex-obiaro.jpg);
+    }
+    .main-bottom .row .twoOfSecond{
+        background: url(../../assets/images/akwa-ibon-bedroom.jpg);
+    }
+    .main-bottom .row .threeOfSecond{
+        background: url(../../assets/images/asaba-duplex.jpg);
+    }
+    .main-bottom .row .oneOfThird{
+        background: url(../../assets/images/sapele.jpg);
+    }
+    .main-bottom .row .common.twoOfThird{
+        background: url(../../assets/images/benin.jpg);
+    }
+    .main-bottom .row .common.threeOfThird{
+        background: url(../../assets/images/warri.jpg);
+    }
+    .main-bottom .row .common a{
+        display: block;
+        width: 90%;
+        border: 1px solid rgb(255,255,255);
+        border-radius: 10px;
+        background: rgba(39, 44, 45, 0.553);
+        padding: 5px;
+        text-transform: uppercase;
+        font-size: 10px;
+        margin-right: 10px;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+        font-weight: 400;
+        color: rgb(255,255,255);
+    }
+    
+}
+@media (max-width:509.9px) {
+    
+    .projects{
+        background-image: url(../../assets/images/projects/bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        width: 100vw;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+    
+    
+    }
+    .main-top{
+        width: 100%;
+        height: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: center;
+    }
+    .project-middle{
+        width: 100%;
+        padding-bottom: 20px;
+        
+    }
+    .paragraph{
+        width: 90%;
+        align-self: center;
+        background-color: rgb(255, 255, 255);
+        padding: 30px;
+        box-shadow: 7px 7px 5px #68686857;
+        margin-bottom:30px;
+    }
+    .project-filter-button{
+        width: 90%;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-self: center;
+        /* background: rgb(24, 22, 22); */  
+        margin-top: 5px;
+        padding-top: 10px;
+         
+    }
+    .project-filter{
+        width: 33.33%;
+        margin-left: 3px;
+        background: black;
+        height: 35px;
+        font-size: 13px;
+        align-self: center;
+        padding: 3px;
+        border-radius: 10px;
+        color: white;
+    }
+    .project-filter.active{
+        background: rgb(155, 129, 129);
+    }
+    .main-bottom{
+        width: 100vw;
+        /* height: 300px; */
+        /* background: black; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-bottom: 50px;
+    
+    }
+     .main-bottom .row.first{
+        margin-top: 35px;
+    } 
+    .main-bottom .row{
+        width: 80vw; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+        
+    }
+    .main-bottom .row .col{
+        width: 80%;
+        height: 200px;
+        border-radius: 10px;
+        /* padding-right: 10px;
+        padding-bottom: 10px; */
+        box-shadow: 5px 5px 5px 3px #00000035;
+        margin-top:25px;
+        background: rgb(216,217,222);
+    }
+    .main-bottom .row .col .common{
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+        /* background-image: url(../../assets/images/ikoyi-park.jpg); */
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        
+        
+    }
+    
+    
+    .main-bottom .row .common a{
+        display: block;
+        width: 90%;
+        border: 1px solid rgb(255,255,255);
+        border-radius: 10px;
+        background: rgba(39, 44, 45, 0.553);
+        padding: 5px;
+        text-transform: uppercase;
+        font-size: 10px;
+        margin-right: 10px;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+        right: 10px;
+        font-weight: 400;
+        color: rgb(255,255,255);
+    }
+    
+    
+}
+
+

@@ -1,0 +1,47 @@
+@keyframes upRightDownLeft {
+    /* 0% {
+        transform: translateX(0px);
+        transform: translateY(0px);
+    } */
+    25% {
+        
+        transform: translateX(0px);
+        transform: translateY(-30px);
+        
+    }
+    50% {
+        transform: translateY(0px);
+        transform: translateX(30px);
+    }
+    75% {
+        transform: translateX(0px);
+        transform: translateY(30PX);
+    }
+    100% {
+        transform: translateY(0PX);
+        transform: translateX(-30px);
+    }
+}
+
+@keyframes smallSpin {
+    0% {
+        transform: rotateZ(0deg);
+        
+    }
+    25%{
+        transform: rotateZ(20deg);
+        
+    }
+    
+}
+
+@keyframes moveLeftAndReturn {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+
+    
+}

@@ -1,0 +1,275 @@
+footer{
+    /* height:800px ; */
+    width: 100vw;
+    flex-direction: column;
+    /* padding: 10px; */
+
+    
+}
+.contact-page{
+    height: 420px;
+    width: 100%;
+    background: rgb(252,254,252);
+    border: 2px dotted rgb(38,104,60);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-width: 2px 0;
+}
+.contact-page .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 400px;
+    gap: 10px;
+    /* background: red; */
+    align-self: center;
+    margin-right: 50px;
+    padding: 10px;
+    
+
+}
+/* .contact-page .content{
+    font-weight: 500;
+} */
+.content a.contact-btn{
+height:  40px;
+width: 150px;
+background: white;
+color: black;
+border: 1px solid rgb(0,31,14);
+border-radius: 10px;
+padding: 8px 35px;
+font-weight: 500;
+position: relative;
+}
+.contact-page img.image{
+    width: 300px;
+    align-self: center;
+    
+    
+}
+.content a.contact-btn::before{
+    content: '';
+    width: 0%;
+    height: 100%;
+    background: black;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0;
+}
+.content a.contact-btn:hover::before{
+    content: 'Contact Us';
+    width: 100%;
+    /* height: 100%; */
+    background: black;
+    color: white;
+    transition: 1s ease-in-out;
+    font-size: 13;
+    /* position: absolute; */
+}
+.main-footer{
+    height: 500px;
+    width: 100%;
+    background: url(../../assets/images/footer-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+footer .top{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    height: 230px;
+
+}
+footer .company,
+footer .investment,
+footer .explore,
+footer .legal{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+} 
+footer .top h3{
+    color: white;
+    font: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+footer a{
+    color: white;
+    font-size: 15.5;
+    font-weight: 300;
+}
+footer a:hover{
+color: rgba(255, 255, 255, 0.74);
+font-size: 17px;
+transition: ease-in-out;
+}
+hr{
+    margin-top: 20px;
+    width: 60%;
+    height: 1px;
+    align-self: center; 
+    color: rgba(255, 255, 255, 0.735)
+}
+footer .bottom{
+    width: 500px;
+    height: 250px; 
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+footer .bottom img{
+    width: 100px;
+    display: flex;
+    align-self: center;
+}
+footer .bottom .media-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ footer .bottom .media-logo .logo{
+    width: 35px;
+    margin-left: 10px;
+    border: 1px solid rgb(131,148,140);
+    padding: 10px;
+    border-radius: 50%;
+    background: rgb(24,56,37);
+    
+} 
+   
+
+footer .bottom h3.company-name,
+footer .bottom p.Copyright{
+    display: flex;
+    justify-content: center;
+    color: rgb(255,255,255);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+    /* background: blue;
+     */
+    
+    
+}
+footer .bottom h3.company-name{
+    letter-spacing: 10px;
+    font-size: 17px;
+    font-weight: 400;
+}
+footer .bottom p.Copyright{
+    font-size: 13px;
+}
+
+@media (min-width:799px) and (max-width:900px){
+    @media (min-width:510px) and (max-width:789px) {
+        .contact-page{
+            height: 450px;
+        }
+        .contact-page .content{
+        height: 200px;
+        width: 400px;
+        padding: 15px;
+        }
+        .contact-page img.image{
+            width: 170px;
+            align-self: center;
+            
+            
+        }
+    }
+    
+}
+
+@media  (max-width:600px) {
+    .contact-page{
+        height: 480px;
+        width: 100%;
+    }
+    .contact-page .content{
+
+    height: 190px;
+    width: 500px;
+    padding: 15px;
+    }
+    .contact-page img.image{
+        width: 200px;
+        align-self: center;
+        
+        
+    }
+
+    .main-footer{
+        height: 950px;
+    }
+
+    footer .top{
+        display: block;
+        width: 100vw;
+        height: 700px;
+        /* background-color: brown; */
+        
+    
+    }
+    footer .company,
+    footer .investment,
+    footer .explore,
+    footer .legal{
+        /* background: red; */
+        width: 40%;
+        height: 300px;
+        margin: 10px auto;
+        float: left;
+        padding: 10px 15px;
+        /* margin: 15px 40px; */
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    
+    } 
+    
+}
+@media (max-width:509.9px){
+    .contact-page{
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-page .content{
+    height: 150px;
+    width: 350px;
+    margin: 20px;
+    padding: 15px;
+    }
+    .contact-page img.image{
+        width: 180px;
+        align-self: center;
+        margin-top: 10px;
+        
+        
+    }
+    
+}

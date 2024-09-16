@@ -1,0 +1,187 @@
+main#investment{
+    background: url(../../assets/images/projects/bg.jpg);
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+main#investment .top h1{
+    width: max-content;
+    margin: 20px auto;
+    
+}
+main .top article{
+    width: 50%;
+    margin: 10px auto;
+    margin-bottom: 70px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px;
+    background: rgb(249,250,252);
+   
+
+
+}
+main .top article p{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+main .middle {
+    background: url(../../assets/images/footer-bg.jpg);
+    width: 100vw;
+    /* height: 700px; */
+    background-size: cover;
+    background-position: center center;
+    margin: 20px 0px;
+    padding: 20px 30px;
+}
+main .middle h2{
+    width: max-content;
+    margin: 10px auto;
+    color: white;
+}
+main .middle .category{
+    width: 100vw;
+    /* height: 500px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+    
+
+}
+main .middle .category .card-container{
+    width: 22%;
+    height: 450px;
+    box-shadow: 1px 5px 12px 5px #000c02 !important;
+    animation: moveLeftAndReturn 5s 5s infinite forwards;
+    border-radius: 15px;
+    
+}
+main .middle .category .card-container.two{
+    height: 460px;
+}
+
+
+main .middle .category .card-container .card{
+    width: 90%;
+    height: 93%;
+    margin: 20px auto;
+    background: rgb(253,244,225);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(104,82,53);
+    /* box-shadow: 1px 5px 12px 5px #000c02 !important; */
+    
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+
+}
+main .middle .category:hover
+{
+    animation: moveLeftAndReturn 0.5s ;
+
+
+}
+main .middle .category .card .display-images-parent{
+    width: 100%;
+    height: 180px;
+    position: relative;
+}
+main .middle .category .card .display-images-parent .display-image{
+    width: 100%;
+    height: 180px;
+    border-radius: 15px 15px 0 0;
+    z-index: 999 !important;
+    position: absolute;
+    
+} 
+main .middle .category .card  .display-logo{
+    width: 80px;
+    height: 70px;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin: 3px auto;
+    margin-top: -10%;
+    background: #bbd51a;
+    position: absolute;
+    z-index: 3;
+    bottom: -25%;
+    left: 35%;
+}
+
+main .middle .category .card h3{
+    margin: 5px auto;
+    margin-top: 50px;
+    font-weight: 550;
+    font-size: 18px;
+}
+main .middle .category .card .price-range {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 17px;
+}
+main .middle .category .card .price-range span{
+    margin-left: 18px;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+main .middle .category .card p.returns{
+    width: 150px;
+    margin-top: 15px ;
+    /* background-color: red; */
+    padding-left: 60px;
+    font-weight: 550;
+
+}
+
+main .middle .category .card p.returns span{
+    margin-left: -30px;
+    font-weight: 200;
+}
+main .middle .category .card a.subscribe-btn{
+    width: 180px;
+    height: 30px;
+    margin: 12px auto;
+    background: rgb(0,191,166);
+    border-top-left-radius: 5px ;
+    border-top-right-radius: 5px;
+    color: white;
+    align-content: center;
+    padding-left: 55px;
+}
+
+main .middle .investment-images{
+  width: 400px;
+  margin: 40px 440px;
+  /* animation: smallSpin 2s   */
+
+}
+main .middle .investment-images:hover{
+    animation: smallSpin 2s  ;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+
+main .bottom{
+    width: 50%;
+    margin: 70px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px;
+    background: rgb(249,250,252);
+}
+
+
+main .bottom  p{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
