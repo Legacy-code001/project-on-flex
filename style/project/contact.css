@@ -1,0 +1,142 @@
+#contact{
+    width: 100vw;
+    background: red;
+    /* background: white; */
+}
+#contact .first {
+    width: 100vw;
+    height: 350px;
+    background: rgb(222,236,131);
+    /* margin-top: 100px;
+     */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#contact .headline{
+    width: 250px;
+    background: yellow;
+    padding: 13px;
+    /* margin: 0px auto; */
+}
+
+
+
+
+#contact .second {
+    width: 100vw;
+    /* height: 500px; */
+    background: rgb(255,255,255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+   
+}
+
+
+#contact .second .contact-first-image{
+    width: 350px;
+    position: absolute;
+    right: 5px;
+    top: -100px;
+    z-index: 1;
+}
+#contact .second .parent-container{
+    background: rgb(255,255,255);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: absolute; */
+    z-index: 999 !important;
+
+}
+
+
+#contact .second h2{
+    width: max-content;
+    padding-top: 80px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+#contact .second .top-container{
+    width: 55%;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    height:600px; 
+    margin: 5px auto;
+    border-radius: 20px;
+    background: rgb(209,209,209);
+    margin-bottom: 50px;
+    box-shadow: 2px 4px 8px rgba(209, 209, 209, 0.553);
+}
+#contact .second .top-container .top{
+    width: 100%;
+    padding: 50px;
+    height:100%; 
+    border: 3px dotted rgb(42,95,61);
+    border-radius: 20px;
+    background: rgb(35,90,55);
+    
+}
+
+#contact .second .top .left,
+#contact .second .top .right{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-bottom: 10px;
+   
+}
+
+#contact .second .top .left{
+    margin-right: 20px;
+}
+
+#contact .second .top .block{
+    width: 93%;
+}
+
+#contact .second .top label{
+    color: rgb(255,255,255);
+    margin-bottom: 3px;
+}
+
+#contact .second .top input,
+#contact .second .top select,
+#contact .second .top textarea{
+    height: 40px;
+    border-radius: 10px;
+    border: 1px dashed rgb(126,165,139);
+    background: rgb(38,104,60);
+    box-shadow:  2px 2px rgb(22,59,35);
+}
+#contact .second .top input::placeholder,
+#contact .second .top select::placeholder,
+#contact .second .top textarea::placeholder{
+    padding-left: 10px;
+    color: rgb(139,174,151);
+}
+#contact .second .top .left:last-of-type{
+    margin-bottom: 50px;
+}
+
+#contact .second .top .btn{
+    width: 50px;
+    padding: 18px 100px;
+    background: rgb(187,213,26);
+    margin-left: 150px;
+    border-radius: 20px;
+    color: rgb(22,78,34);
+}
+
+
+
+
+
+

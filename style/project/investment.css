@@ -84,7 +84,7 @@ main .middle .category .card-container .card{
 main .middle .category:hover
 {
     animation: moveLeftAndReturn 0.5s ;
-
+ 
 
 }
 main .middle .category .card .display-images-parent{
@@ -127,6 +127,7 @@ main .middle .category .card .price-range {
     gap: 10px;
     font-weight: 600;
     font-size: 17px;
+    color: rgb(104,82,53);
 }
 main .middle .category .card .price-range span{
     margin-left: 18px;
@@ -140,6 +141,7 @@ main .middle .category .card p.returns{
     /* background-color: red; */
     padding-left: 60px;
     font-weight: 550;
+    color: rgb(104,82,53);
 
 }
 
