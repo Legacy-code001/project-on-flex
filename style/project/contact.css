@@ -1,6 +1,5 @@
 #contact{
     width: 100vw;
-    background: red;
     /* background: white; */
 }
 #contact .first {
@@ -17,7 +16,6 @@
 
 #contact .headline{
     width: 250px;
-    background: yellow;
     padding: 13px;
     /* margin: 0px auto; */
 }
@@ -40,9 +38,10 @@
 #contact .second .contact-first-image{
     width: 350px;
     position: absolute;
-    right: 5px;
+    right: 40px;
     top: -100px;
     z-index: 1;
+    animation: upAndDown 3s ease-in-out infinite;
 }
 #contact .second .parent-container{
     background: rgb(255,255,255);
@@ -114,7 +113,12 @@
     border-radius: 10px;
     border: 1px dashed rgb(126,165,139);
     background: rgb(38,104,60);
-    box-shadow:  2px 2px rgb(22,59,35);
+    box-shadow:  2px 2px 2px 2px rgba(22, 59, 35, 0.683);
+}
+#contact .second .top input:hover,
+#contact .second .top select:hover,
+#contact .second .top textarea:hover{
+    animation: inputActivation 1.0s ;
 }
 #contact .second .top input::placeholder,
 #contact .second .top select::placeholder,
@@ -135,6 +139,47 @@
     color: rgb(22,78,34);
 }
 
+#contact .second .bottom-container{
+    width: 55%;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    height:300px; 
+    margin: 5px auto;
+    border-radius: 20px;
+    background: rgb(209,209,209);
+    margin-bottom: 100px;
+    box-shadow: 2px 4px 8px rgba(209, 209, 209, 0.553);
+}
+#contact .second .bottom-container .bottom{
+    width: 100%;
+    padding: 50px;
+    height:100%; 
+    border: 3px dotted rgb(42,95,61);
+    border-radius: 20px;
+    background: rgb(35,90,55);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#contact .second .bottom-container .bottom .com{
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    color: rgb(255,255,255);
+}
+#contact .second .bottom-container .bottom .com .logo{
+    color: rgb(187,213,26);
+    border: none;
+    background: rgb(35,90,55);
+}
+#contact .second .bottom-container .bottom .com  img.logo-image{
+    color:  rgb(187,213,26);
+    background: rgb(35,90,55);
+}
+
+    
 
 
 

@@ -45,3 +45,22 @@
 
     
 }
+@keyframes upAndDown {
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-35px);
+    }
+}
+@keyframes inputActivation {
+    0%{
+        transform: translateX(0);
+
+ 
+    }
+    25%{
+        transform: translateX(-5PX);
+    }
+
+}
