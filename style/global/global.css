@@ -70,3 +70,39 @@ p{
     opacity: 0.5;
   
 }
+
+
+.left-icon{
+    width: 48px;
+    height: 48px;
+    padding: 10px;
+    /* height: 23px; */
+    z-index: 1001;
+    left: 22px;
+    top: 480px;
+    border-radius: 50%;
+    background: rgb(174,245,197);
+    position: fixed;
+    
+}
+.left-icon img{
+    width: 27px;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius:50%;
+}
+.right-icon{
+    position:fixed;
+    width: 48px;
+    height: 48px;
+    background:  rgb(37,211,102);
+    right:  28px;
+    padding: 10px;
+    z-index: 1001;
+    top: 480px;
+    border-radius: 50%;
+}
+/* .right-icon img{ 
+    width: 27px;
+    background: rgb(37,211,102);
+} */

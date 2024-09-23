@@ -1,0 +1,55 @@
+#home{
+    width: 100vw;
+}
+#home .first{
+    width: 100vw;
+    height: 600px;
+    background: rgba(13, 38, 27, 0.249);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#home .first .empty-background{
+    width: 100vw;
+    height: 250px;
+    height: 50px;
+    /* transparent */
+    background: transparent;
+   
+}
+#home .first .path-to-download{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#home .first h1{
+    width: max-content;
+    padding: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+#home .first .description{
+    width: max-content;
+    /* padding: 5px; */
+    background: red;
+}
+#home .first .description span{
+    margin-left: -25px;
+}
+#home .first .more-description{
+    width: max-content;
+}
+#home .first h3{
+    font-size: 15px;
+
+}
+#home .first .path-to-download{
+    width: 380px;
+    background: red;
+    padding-left: 20px;
+}
+#home .first .img-path{
+    width: 120px;
+}
+
