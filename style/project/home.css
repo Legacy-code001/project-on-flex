@@ -1,19 +1,19 @@
 #home{
     width: 100vw;
 }
-#home .first{
+#home .first{ 
     width: 100vw;
-    height: 600px;
-    background: rgba(13, 38, 27, 0.249);
+    height: 500px;
+    background: rgb(12,34,20);
+    color: rgb(174,245,197);
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    /* gap: 10px; */
 }
 #home .first .empty-background{
     width: 100vw;
-    height: 250px;
-    height: 50px;
+    height: 80px;
     /* transparent */
     background: transparent;
    
@@ -26,30 +26,239 @@
 }
 #home .first h1{
     width: max-content;
-    padding: 5px;
+    font-size: 18;
+    padding: 8px;
+    /* background: red; */
     border: 1px solid rgb(255, 255, 255);
 }
 #home .first .description{
     width: max-content;
-    /* padding: 5px; */
-    background: red;
+    /* background: red; */
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-left: 35px;
+    color: rgb(255, 255, 255);
 }
 #home .first .description span{
     margin-left: -25px;
 }
 #home .first .more-description{
     width: max-content;
+    font-size: 18px;
+    margin-top: 18px;
+    margin-bottom: 80px;
+    color: rgb(189,195,190);
 }
 #home .first h3{
     font-size: 15px;
+    /* background: red; */
+    width: 300px;
+    padding-left: 80px;
+    color: rgb(189,195,190);
 
 }
 #home .first .path-to-download{
     width: 380px;
-    background: red;
-    padding-left: 20px;
+    /* background: red; */
+    padding-left: 50px;
+    border-top: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding-top: 15px;
+    margin-top: 3px;
 }
 #home .first .img-path{
     width: 120px;
+    
 }
+
+#home .first .coming-soon{
+    width: 150px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#home .second{
+    background: url(../../assets/images/projects/bg.jpg);
+    width: 100vw;
+    /* height: 500px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#home .second .second-heading{
+    width: 180px;
+    padding: 15px 18px;
+    margin-top: 70px;
+    font-size: 15px;
+    background: rgb(203,216,116);
+    border-radius: 25px;
+    
+
+}
+#home .second .note{
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: 700;
+}
+#home .second .second-container{
+    width: 800px;
+    height: 450px;
+    background: rgb(190,197,194);
+    border-radius: 20px;
+    margin-top: 30px;
+}
+#home .second .second-container .inner-container{
+    width: 99%;
+    height: 99%; 
+    background: rgb(97,190,201);
+    border-radius: 20px;
+    padding: 50px 25px ;
+    display: flex;
+    flex-direction: row;
+   
+}
+#home .second .second-container .content{
+    width: 60%;
+}
+#home .second .second-container img{
+    width: 40%;
+    height: 250px;
+}
+#home .second .inner-container .content article h3{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+#home .second .inner-container .content article p.invest-note{
+    font-size: 23px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+#home .second .inner-container .content article p.more-note{
+    width: 80%;
+    margin-bottom: 15px;
+}
+#home .second .inner-container .content .benefits{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#home .second .inner-container .content .list{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}#home .second .inner-container .content .list-content{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+#home .second .inner-container .content .list .list-item{
+    width: 20px;
+    height: 20px;
+    background: rgb(22,59,35);
+    border-radius: 20px;
+    margin-right: 10px;
+}
+#home .second .inner-container .content .list .item-end{
+    width: 13px;
+    height: 23px;
+    background: rgb(0,31,14);
+    border-radius: 20px;
+}
+#home .third{
+    width: 100vw;
+    /* height: 500px; */
+    background: url(../../assets/images/footer-bg.jpg);
+    color: rgb(255, 255, 255);
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#home .third h2{
+    font-size: 27px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+#home .third p.info{
+    font-size: 15.5px;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+}
+#home .third .pic-info{
+    width: 100%;
+    /* height: 600px; */
+    /* padding: 20px 30px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#home .third .pic-info .left-img{
+    margin-left: 50px;
+    width: 40%;
+}
+#home .third .pic-info .right-content{
+    width: 45%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#home .third .pic-info .right-content .card{
+    width: 73%;
+    height: 58px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+    background: rgb(0,191,166);
+    border-radius: 5px;
+
+}
+#home .third .pic-info .right-content .card img{
+    width: 50px;
+    margin-left: 15px;
+} 
+#home .fourth{
+    width: 100vw;
+    height: 750px;
+    background: red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+#home .fourth .card{
+    width: 280px;
+    height: 150px;
+    background: white;
+    border-radius:5px ;
+    position: absolute;
+}
+#home .fourth .one{
+    right: 150px;
+    top: 150px;
+}
+#home .fourth .two{
+    left: 550px; 
+    bottom: 50px;
+    position: absolute;
+}
+#home .fourth img{
+    position: absolute;
+     top: 250px;
+     width: 400px;
+}
+#home .fourth .three{
+    left: 150px;
+    top: 300px;
+    position: absolute;
+}
+
 
