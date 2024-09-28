@@ -36,6 +36,9 @@ main .middle {
     background-position: center center;
     margin: 20px 0px;
     padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 main .middle h2{
     width: max-content;
@@ -190,4 +193,85 @@ main .bottom{
 main .bottom  p{
     margin-bottom: 10px;
     font-size: 16px;
+}
+
+@media (min-width:860px) and (max-width:1020px){
+main .top article p{
+    font-size: 14px;
+}
+main .middle .category{
+    gap: 7px;
+    margin-top: 20px;
+    
+
+}
+main .middle .category .card-container{
+    width: 28%;
+    /* height: 450px; */
+    
+}
+/* main .middle .category .card-container.two{
+    height: 460px;
+} */
+main .middle .category .card  .display-logo{
+    
+    left: 30%;
+}
+main .middle .category .card .price-range {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    font-weight: 600;
+    font-size: 17px;
+    color: rgb(104,82,53);
+    margin-right: 5px;
+}
+main .bottom  p{
+
+    font-size: 14px;
+}
+
+}
+@media (min-width:540px) and (max-width:859px) {
+    main .top article p{
+        /* margin-bottom: 10px; */
+        font-size: 14px;
+}
+main .middle .category{
+    /* height: 500px; */
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 20px;
+    
+
+}
+main .middle .category .card-container{
+    width: 90%;
+    /* height: 450px; */
+    
+}
+/* main .middle .category .card-container.two{
+    height: 460px;
+} */
+main .middle .category .card  .display-logo{
+    
+    left: 40%;
+}
+main .middle .category .card .price-range {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    font-weight: 600;
+    font-size: 17px;
+    color: rgb(104,82,53);
+}
+main .bottom  p{
+
+    font-size: 14px;
+}
+
+    
 }

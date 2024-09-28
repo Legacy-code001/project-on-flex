@@ -13,7 +13,7 @@ main h2{
     font-size: 25px;
 }
 main .top{
-    width:100% ;
+    width:100vw ;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -139,6 +139,7 @@ main .bottom .row .imgContainer{
     display: flex;
     flex-direction: column;
     margin-left: 50px;
+    align-items: center;
     background: rgb(38,104,60);
     border-radius: 10px;
     box-shadow: 1px 5px 12px 5px #000c02d8;
@@ -155,6 +156,7 @@ main .bottom .row .imgContainer img.memberPic{
 main .bottom .row .imgContainer .name,
 main .bottom .row .imgContainer .tittle,
 main .bottom .row .imgContainer a{
+    width: max-content;
     margin: 5px auto;
     color: white;
 }
@@ -170,6 +172,356 @@ main .bottom .row .imgContainer a{
     border-radius: 50%;
     margin-top: 25px;
 }
+@media (min-width:860px) and (max-width:1020px) {
+    main h2{
+        margin: 10px auto;
+        font-size: 23px;
+    }
+    main .top{
+        margin-top: 10px;
+        height: 600;
+    }
 
+    main .top article{
+        padding: 40px 30px;
+        width: 38%;
+    }
+    main .top article p{
+        color: white;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    main .top img{
+        height: 450px;
+    }
+    main .middle{
+        gap: 20px;
+        padding: 5px;
+        padding-bottom: 80px;
+    }
+    main .middle article{
+        margin-top: 120px;
+        margin-right: 10px;
+        width: 40%;
+        height: 450px;
+        padding: 20px 15px;
+    }
+    main .middle img{
+        margin-top: 30px;
+        padding-top: 30px;
+        background: white;
+        width: 40%;
+        height: 450px;
+        margin-left: 5px;
+    
+    }
+    main .bottom{
+        padding: 30px auto; 
+    
+    }
+    main .bottom h3,
+    main .bottom p{
+        margin-bottom: 30PX;
+    }
+    main .bottom h3{
+        font-size: 20PX;
+        margin-bottom: 15PX;
+    }
+    main .bottom P{
+        font-size: 13PX;
+        margin: 15px auto;
+    }
+    main .bottom .row{
+        /* height: 300px; */
+        margin-bottom: 30px;
+        
+    }
+    main .bottom .row .imgContainer{
+        width: 37%;
+        height: 350px;
+        margin-left: 30px;
+        align-items: center;
+        gap: 10px;
+        
+    }
+    main .bottom .row{
+        width: 100%;
+        /* height: 300px; */
+        display: block;
+        /* flex-direction: row; */
+        margin-bottom: 10px;
+        
+    }
+    main .bottom .row .imgContainer{
+        width: 40%;
+        height: 320px;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        align-items: center;
+        
+    }
+    
+    
+   
+}
+@media (min-width:540px) and (max-width:859px) {
+    main h2{
+        margin: 5px auto;
+        font-size: 20px;
+    }
+    main .top{
+        margin-top: 10px;
+        height: 600;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    main .top article{
+        padding: 10px 30px;
+        width: 100%;
+        position: absolute;
+        top: 10px;
+    }
+    main .top article p{
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    main .top img{
+        width: 80%;
+        height: 300px;
+        position: absolute;
+        bottom: 10px;
+
+    }
+    main .middle{
+        gap: 20px;
+        padding: 10px;
+        padding-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+    main .middle article{
+        margin: 30px auto;
+        width: 90%;
+        height: 500px;
+        padding: 20px 15px;
+    }
+    main .middle article p{
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 1.0em;
+        letter-spacing: .5px;
+        
+    }
+    
+    main .middle img{
+        margin: 30px auto;
+        width: 90%;
+        height: 450px;
+
+    
+    }
+    main .middle article h3{
+        font-size: 30px;
+        margin-bottom: 25px;
+        width: 100%;
+
+        
+    }
+    main .middle article p{
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.5em;
+        letter-spacing: .8px;
+        
+    }
+    main .bottom{
+        padding: 35px auto; 
+    
+    }
+    main .bottom h3,
+    main .bottom p{
+        margin-bottom: 30PX;
+    }
+    main .bottom h3{
+        font-size: 22PX;
+        margin-bottom: 13PX;
+    }
+    main .bottom P{
+        font-size: 13px;
+        margin: 15px auto;
+    }
+    main .bottom .row{
+        width: 100%;
+        /* height: 300px; */
+        display: block;
+        /* flex-direction: row; */
+        margin-bottom: 5px;
+        
+    }
+     main .bottom .row .imgContainer{
+        width: 42%;
+        height: 350px;
+        margin-left: 25px;
+        align-items: center;
+        
+        float: left;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+
+        
+    }
+    
+    /* main .bottom .row .imgContainer{
+        width: 42%;
+        height: 350px;
+        float: left;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        align-items: center;
+        
+    } */
+    main .bottom .row .imgContainer .name{
+    /* width: 120px; */
+    font-size: 12px;
+    margin: 5px auto;
+}
+    
+
+    
+}
+@media (max-width:539.9px) {
+    main{
+        overflow: hidden;
+    }
+    main h2{
+        margin: 5px auto;
+        font-size: 15px;
+    }
+    main .top{
+        margin-top: 10px;
+        height: 520;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    main .top article{
+        padding: 10% 25px;
+        width: 100%;
+        position: absolute;
+        top: 10px;
+    }
+    main .top article p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    main .top img{
+        width: 80%;
+        height: 200px;
+        position: absolute;
+        bottom: 10px;
+
+    }
+    main .middle{
+        gap: 20px;
+        padding: 10px;
+        padding-bottom: 80px;
+        display: flex;
+        flex-direction: column;
+    }
+    main .middle article{
+        margin: 30px auto;
+        width: 90%;
+        height: 700px;
+        padding: 20px 15px;
+    }
+    main .middle article p{
+        margin-bottom: 10px;
+        font-size: 12px;
+        line-height: 1.0em;
+        letter-spacing: .5px;
+        
+    }
+    
+    main .middle img{
+        margin: 30px auto;
+        width: 90%;
+        height: 450px;
+
+    
+    }
+    main .middle article h3{
+        font-size: 30px;
+        margin-bottom: 25px;
+        width: 100%;
+
+        
+    }
+    main .middle article p{
+        margin-bottom: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.5em;
+        letter-spacing: .8px;
+        
+    }
+    main .bottom{
+        padding: 35px auto; 
+    
+    }
+    main .bottom h3,
+    main .bottom p{
+        margin-bottom: 30PX;
+    }
+    main .bottom h3{
+        font-size: 22PX;
+        margin-bottom: 13PX;
+    }
+    main .bottom P{
+        font-size: 13px;
+        margin: 15px auto;
+    }
+    main .bottom .row{
+        width: 100%;
+        /* height: 300px; */
+        display: block;
+        /* flex-direction: row; */
+        margin-bottom: 5px;
+        
+    }
+     main .bottom .row .imgContainer{
+        width: 82%;
+        height: 400px;
+        margin-left: 25px;
+        align-items: center;
+        
+        float: left;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+
+        
+    }
+    main .bottom .row .imgContainer img.memberPic{
+        width: 200px;
+        height: 185px;
+        /* display: flex;
+        align-self: center; */
+        border-radius: 50%;
+        margin: 30px auto;
+    }
+
+    
+}
 
 
