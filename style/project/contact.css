@@ -178,11 +178,129 @@
     color:  rgb(187,213,26);
     background: rgb(35,90,55);
 }
-
-
+@media (min-width:860px) and (max-width:1188px){
+    #contact .second .top-container .top{
+        width: 100%;
+        padding: 30px 40px;
+        height:100%; 
+        
+    }
+    #contact .second .top .left,
+    #contact .second .top .right{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-bottom: 10px;
+   
+}
+#contact .second .top .block{
+    width: 96%;
+}
+#contact .second .top .btn{
+    width: 30px;
+    padding: 18px 70px;
+    margin: 30px 25%;
     
+}
+
+}
+@media (min-width:540px) and (max-width:859.9px){
+    #contact .second .top-container{
+        width: 75%;
+        height:600px; 
+        margin-bottom: 50px;
+    }
+    #contact .second .top-container .top{
+        width: 100%;
+        padding: 30px 40px;
+        height:100%; 
+        
+    }
+    #contact .second .top .left,
+    #contact .second .top .right{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-bottom: 10px;
+   
+}
+#contact .second .top .block{
+    width: 96%;
+}
+#contact .second .top .btn{
+    width: 30px;
+    padding: 18px 70px;
+    margin: 30px 20%;
+    
+}
 
 
+}
+@media (min-width:540px) and (max-width:859.9px){
+    #contact .second h2{
+        align-content: center;
+        font-size: 12px;
+    }
+    #contact .second .top-container .top{
+        width: 100%;
+        padding: 30px 40px;
+        height:100%; 
+        
+    }
+    #contact .second .top .left,
+    #contact .second .top .right{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-bottom: 10px;
+   
+}
+#contact .second .top .block{
+    width: 96%;
+}
+#contact .second .top .btn{
+    width: 30px;
+    padding: 18px 70px;
+    margin: 30px 25%;
+    
+}
 
+}
+@media (max-width:539.9px){
+    #contact .second h2{
+        font-size: 10px;
+    }
+    #contact .second .top-container{
+        width: 55%;
+        height:600px; 
+        margin-bottom: 50px;
+    }
+    #contact .second .top-container .top{
+        width: 100%;
+        padding: 15px 20px;
+        height:100%; 
+        
+    }
+    #contact .second .top .left,
+    #contact .second .top .right{
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    margin-bottom: 10px;
+   
+}
+#contact .second .top .block{
+    width: 96%;
+}
+#contact .second .top .btn{
+    width: 20px;
+    padding: 18px 50px;
+    margin: 30px 8%;
+    
+}
 
-
+}

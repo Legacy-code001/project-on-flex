@@ -234,7 +234,7 @@ main .bottom  p{
 
 }
 @media (min-width:540px) and (max-width:859px) {
-    main .top article p{
+main .top article p{
         /* margin-bottom: 10px; */
         font-size: 14px;
 }
@@ -257,7 +257,7 @@ main .middle .category .card-container{
 } */
 main .middle .category .card  .display-logo{
     
-    left: 40%;
+    left: 45%;
 }
 main .middle .category .card .price-range {
     display: flex;
@@ -271,6 +271,48 @@ main .middle .category .card .price-range {
 main .bottom  p{
 
     font-size: 14px;
+}
+
+    
+}
+@media (max-width:539.9px) {
+    main .top article p{
+        /* margin-bottom: 10px; */
+        font-size: 12px;
+}
+main .middle .category{
+    /* height: 500px; */
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+    
+
+}
+main .middle .category .card-container{
+    width: 90%;
+    /* height: 450px; */
+    
+}
+/* main .middle .category .card-container.two{
+    height: 460px;
+} */
+main .middle .category .card  .display-logo{
+    
+    left: 40%;
+}
+main .middle .category .card .price-range {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 180px;
+    font-weight: 600;
+    font-size: 17px;
+    color: rgb(104,82,53);
+}
+main .bottom  p{
+
+    font-size: 12px;
 }
 
     
