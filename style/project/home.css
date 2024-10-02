@@ -1,5 +1,7 @@
 #home{
     width: 100vw;
+    height: 4000px;
+    position: relative;
 }
 #home .first{ 
     width: 100vw;
@@ -227,38 +229,254 @@
 } 
 #home .fourth{
     width: 100vw;
-    height: 750px;
+    height: 850px;
     background: red;
     display: flex;
     align-items: center;
     flex-direction: column;
     position: relative;
 }
+#home .fourth h2{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+#home .fourth p{
+    margin-bottom: 15px;
+    font-size: 18;
+}
 #home .fourth .card{
-    width: 280px;
-    height: 150px;
+    width: 320px;
+    height: 170px;
     background: white;
     border-radius:5px ;
     position: absolute;
 }
+#home .fourth .card .inner-content{
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    border: 1px dashed rgb(161,161,161);
+    border-radius: 5px;
+    position: absolute;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+#home .fourth .card .inner-content .card-top{
+    /* width: 200px; */
+    height: 40px;
+    background: blue;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#home .fourth .card .inner-content .card-top img{
+    width: 70px;
+    top: 5%;
+    left: 2.5%;
+}
+#home .fourth .card .inner-content .card-top h3{
+    width: 140px;
+    font-weight: 600;
+    background: green;
+    font-size: 15px;
+    
+}
+#home .fourth .card .inner-content h4{
+    width: max-content;
+    margin: 15px auto;
+    /* color: rgb(0, 0, 0); */
+}
+#home .fourth .card .inner-content p{
+    width: 250px;
+    color: rgb(103, 103, 103);
+    font-size: 15px;
+}
+
 #home .fourth .one{
     right: 150px;
     top: 150px;
 }
 #home .fourth .two{
     left: 550px; 
-    bottom: 50px;
+    bottom: 100px;
     position: absolute;
 }
 #home .fourth img{
     position: absolute;
-     top: 250px;
+     top: 280px;
      width: 400px;
 }
 #home .fourth .three{
-    left: 150px;
-    top: 300px;
+    left: 120px;
+    top: 330px;
     position: absolute;
 }
+#home .fifth{
+    width: 100vw;
+    height: 700px;
+    background: url(../../assets/images/footer-bg.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#home .fifth h2{
+    margin-top: 80px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+#home .fifth p{
+    margin-bottom: 15px;
+    font-size: 18;
+    color: rgb(255, 255, 255);
+
+}
+#home .fifth .projects{
+    width: 87vw;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+#home .fifth .projects .container{
+    width: 33%;
+    height: 100%;
+    background: red;
+    border-radius: 10px;
+    box-shadow: 1px 5px 12px 5px #000c02d8;
+    padding: 15px;
+}
+#home .fifth .projects .container img{
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+#home .fifth .projects .container h3{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+#home .fifth .projects .container  p{
+    color: rgb(255, 255, 255);
+    font-size: 13;
+    font-weight: 400;
+}
+#home .other-project{
+    width: max-content; 
+    height: 30px;
+    margin-top: 30px;
+    /* background: blue; */
+    /* color:rgb(255, 255, 255); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* padding: 10px; */
+    gap: 10px;
+}
+
+#home  .other-project img{
+    width: 24px;
+    height: 23px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    
+    
+}
+/* #home .fifth .other-project p{
+    /* color: white;
+    background: yellow;
+    margin-top: 7px;
+} */
+#home .sixth{
+    width: 80vw;
+    height: 550px;
+    background: green;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:10px auto;
+    color: black;
+    position: absolute;
+    bottom: 3.5%;
+    left: 10%;
+}
+#home .sixth h2{
+    font-weight: 600;
+    margin-top: 50px;
+}
+#home .sixth p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+#home .sixth .team-details{
+    width:70%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    margin-top: 40px;
+}
+#home .sixth .team-details .imgContainer{
+    width: 33%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:7px
+}
+
+#home .sixth .team-details .imgContainer .memberpic{
+    width: 180px;
+    height: 165px;
+    border-radius: 50%;
+    box-shadow: 1px 5px 12px 5px #D6D8D7;
+}
+#home .sixth .team-details .imgContainer .name{
+    margin-top: 10px;
+    font-weight: 600;
+}
+#home .sixth .more-teams-detail{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#home .sixth .more-teams-detail img{
+    position: absolute;
+    top: 8%;
+    width: 43px;
+    padding: 10px;
+    background: rgba(127, 127, 127, 0.505);
+    /* border: 1px solid rgb(255,255,255); */
+    border-radius: 50%;
+}
+#home .sixth .more-teams-detail img.left{
+    /* top: -10%; */
+    
+    left: 17%;
+}
+#home .sixth .more-teams-detail img.right{
+    right: 17%;
+}
+
+
+#home .sixth .other-project p{
+    color: white;
+    /* background: yellow; */
+    margin-top: 1px; 
+}
+
+
+
+
+
 
 
